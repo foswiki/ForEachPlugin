@@ -124,6 +124,7 @@ __Note:__ You do not need to install anything on the browser to use this plugin.
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  14 Mar 2017: | (1.103) Foswikitask:Item
 |  22 Dec 2010: | (1.102) Foswikitask:Item10183 - Add link to Foswiki:Support.Faq39 |
 |  10 Nov 2010: | (1.101) Foswikitask:Item9993 - Fix Release Version  |
 |  04 Jun 2009: | (1.100) Ported unmodified to Foswiki by Kenneth Lavrsen |

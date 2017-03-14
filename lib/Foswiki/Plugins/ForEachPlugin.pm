@@ -68,10 +68,10 @@ sub commonTagsHandler {
     # $_[0] =~ s/%XYZ%/&handleXyz()/ge;
 
     $_[0] =~
-s/%FOREACH{\s*"(.+?)"\s+in="(.+?)"\s*}%(.*?)%NEXT{\s*"\1"\s*}%/&handleForEach($1, $2, $3)/ges;
+s/%FOREACH\{\s*"(.+?)"\s+in="(.+?)"\s*\}%(.*?)%NEXT{\s*"\1"\s*\}%/&handleForEach($1, $2, $3)/ges;
 
     $_[0] =~
-s/%FOR{\s*"(.+?)"\s+start="(.+?)"\s+stop="(.+?)"\s+step="(.+?)"\s*}%(.*?)%NEXT{\s*"\1"\s*}%/&handleFor($1, $2, $3, $4, $5)/ges;
+s/%FOR\{\s*"(.+?)"\s+start="(.+?)"\s+stop="(.+?)"\s+step="(.+?)"\s*\}%(.*?)%NEXT\{\s*"\1"\s*\}%/&handleFor($1, $2, $3, $4, $5)/ges;
 }
 
 # =========================
